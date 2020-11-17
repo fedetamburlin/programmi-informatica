@@ -1,5 +1,6 @@
 #include <iostream>
-#define N 100
+#include "funzioni2_3.hpp"
+#define N 100  //lunghezza massima array
 using namespace std;
 
 int main(){
@@ -11,9 +12,13 @@ int main(){
     cin>>lettera;
 
     cout<<"Lettera="<<n[lettera-1];
+    char* np=cleanArray(n);
+
+
+    //prova stampa array
 
     /*for (int i=0;i<10;i++){
         cout<<n[i]<<", ";
-    }*/
-
+    }*/ 
 }
+

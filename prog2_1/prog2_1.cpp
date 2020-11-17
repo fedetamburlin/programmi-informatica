@@ -9,7 +9,6 @@ int main(){
     int *p=popolaArray(n);
     int s=somma(p);
     cout<<"Somma="<<s;
-    
 }
 
 int* popolaArray(int n []){
